@@ -1,0 +1,9 @@
+{
+    "name": "sergeisvirin72/design-patterns",
+    "autoload": {
+        "psr-4": {
+            "AbstractFactory\\": "src/AbstractFactory"
+        }
+    },
+    "require": {}
+}
