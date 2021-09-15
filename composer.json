@@ -2,6 +2,7 @@
     "name": "sergeisvirin72/design-patterns",
     "autoload": {
         "psr-4": {
+            "Singleton\\": "src/Singleton",
             "FactoryMethod\\": "src/FactoryMethod",
             "AbstractFactory\\": "src/AbstractFactory"
         }
