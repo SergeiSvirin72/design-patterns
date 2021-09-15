@@ -4,7 +4,7 @@
 namespace AbstractFactory;
 
 
-class ConcreteProductA2 extends ProductA
+class ConcreteProductA2 extends AbstractProductA
 {
     public function productAOperation()
     {

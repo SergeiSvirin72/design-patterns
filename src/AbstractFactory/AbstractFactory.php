@@ -6,6 +6,6 @@ namespace AbstractFactory;
 
 abstract class AbstractFactory
 {
-    abstract public function createProductA(): ProductA;
-    abstract public function createProductB(): ProductB;
+    abstract public function createProductA(): AbstractProductA;
+    abstract public function createProductB(): AbstractProductB;
 }

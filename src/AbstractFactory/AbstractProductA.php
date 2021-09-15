@@ -4,7 +4,7 @@
 namespace AbstractFactory;
 
 
-abstract class ProductA
+abstract class AbstractProductA
 {
     abstract public function productAOperation();
 }

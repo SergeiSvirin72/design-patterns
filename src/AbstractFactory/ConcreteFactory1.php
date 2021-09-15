@@ -6,10 +6,10 @@ namespace AbstractFactory;
 
 class ConcreteFactory1 extends AbstractFactory
 {
-    public function createProductA(): ProductA {
+    public function createProductA(): AbstractProductA {
         return new ConcreteProductA1();
     }
-    public function createProductB(): ProductB {
+    public function createProductB(): AbstractProductB {
         return new ConcreteProductB1();
     }
 }
