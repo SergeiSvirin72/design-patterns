@@ -5,7 +5,8 @@
             "Singleton\\": "src/Singleton",
             "FactoryMethod\\": "src/FactoryMethod",
             "AbstractFactory\\": "src/AbstractFactory",
-            "Builder\\": "src/Builder"
+            "Builder\\": "src/Builder",
+            "Prototype\\": "src/Prototype"
         }
     },
     "require": {}
