@@ -4,7 +4,8 @@
         "psr-4": {
             "Singleton\\": "src/Singleton",
             "FactoryMethod\\": "src/FactoryMethod",
-            "AbstractFactory\\": "src/AbstractFactory"
+            "AbstractFactory\\": "src/AbstractFactory",
+            "Builder\\": "src/Builder"
         }
     },
     "require": {}
