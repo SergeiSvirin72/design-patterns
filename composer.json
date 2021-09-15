@@ -6,7 +6,8 @@
             "FactoryMethod\\": "src/FactoryMethod",
             "AbstractFactory\\": "src/AbstractFactory",
             "Builder\\": "src/Builder",
-            "Prototype\\": "src/Prototype"
+            "Prototype\\": "src/Prototype",
+            "ObjectPool\\": "src/ObjectPool"
         }
     },
     "require": {}
