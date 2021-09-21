@@ -22,8 +22,6 @@ abstract class Builder
 
     public function getProduct(): Product
     {
-        print 'Result product: '; print_r($this->product->parts);
-
         $result = $this->product;
         $this->createProduct();
         return $result;
