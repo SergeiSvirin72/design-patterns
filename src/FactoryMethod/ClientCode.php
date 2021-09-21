@@ -6,7 +6,7 @@ namespace FactoryMethod;
 
 class ClientCode
 {
-    public function __invoke(ProductFactory $factory)
+    public function __invoke(AbstractProductFactory $factory)
     {
         $factory->factoryOperation();
     }

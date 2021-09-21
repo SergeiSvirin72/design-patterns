@@ -4,7 +4,7 @@
 namespace Builder;
 
 
-class ConcreteBuilderA extends Builder
+class ConcreteBuilderA extends AbstractBuilder
 {
     public function buildStep1(): self
     {

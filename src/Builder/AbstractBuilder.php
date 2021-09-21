@@ -4,7 +4,7 @@
 namespace Builder;
 
 
-abstract class Builder
+abstract class AbstractBuilder
 {
     abstract public function buildStep1(): self;
 

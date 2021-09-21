@@ -4,7 +4,7 @@
 namespace FactoryMethod;
 
 
-abstract class Product
+abstract class AbstractProduct
 {
     abstract public function productOperation();
 }

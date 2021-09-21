@@ -8,7 +8,8 @@
             "Builder\\": "src/Builder",
             "Prototype\\": "src/Prototype",
             "ObjectPool\\": "src/ObjectPool",
-            "Adapter\\": "src/Adapter"
+            "Adapter\\": "src/Adapter",
+            "Composite\\": "src/Composite"
         }
     },
     "require": {}

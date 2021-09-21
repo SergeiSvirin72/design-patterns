@@ -4,7 +4,7 @@
 namespace FactoryMethod;
 
 
-class ConcreteProductB extends Product
+class ConcreteProductB extends AbstractProduct
 {
     public function productOperation()
     {
