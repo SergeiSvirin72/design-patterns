@@ -9,7 +9,23 @@
             "Prototype\\": "src/Prototype",
             "ObjectPool\\": "src/ObjectPool",
             "Adapter\\": "src/Adapter",
-            "Composite\\": "src/Composite"
+            "Bridge\\": "src/Bridge",
+            "Composite\\": "src/Composite",
+            "Decorator\\": "src/Decorator",
+            "Facade\\": "src/Facade",
+            "Flyweight\\": "src/Flyweight",
+            "Proxy\\": "src/Proxy",
+            "ChainOfResponsibility\\": "src/ChainOfResponsibility",
+            "Command\\": "src/Command",
+            "Interpreter\\": "src/Interpreter",
+            "Iterator\\": "src/Iterator",
+            "Mediator\\": "src/Mediator",
+            "Memento\\": "src/Memento",
+            "Observer\\": "src/Observer",
+            "State\\": "src/State",
+            "Strategy\\": "src/Strategy",
+            "TemplateMethod\\": "src/TemplateMethod",
+            "Visitor\\": "src/Visitor"
         }
     },
     "require": {}
