@@ -25,6 +25,7 @@
             "Observer\\": "src/Observer",
             "State\\": "src/State",
             "Strategy\\": "src/Strategy",
+            "StrategyFunc\\": "src/StrategyFunc",
             "TemplateMethod\\": "src/TemplateMethod",
             "Visitor\\": "src/Visitor"
         }
