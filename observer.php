@@ -1,16 +1,17 @@
 <?php
 
-use Observer\Publisher;
-use Observer\SubscriberA;
-use Observer\SubscriberB;
+use Observer\Observable;
+use Observer\ObserverA;
+use Observer\ObserverB;
 
 require __DIR__ . '/vendor/autoload.php';
 
-$subscriberA = new SubscriberA();
-$subscriberB = new SubscriberB();
+$observable = new Observable();
 
-$publisher = new Publisher();
-$publisher->attach($subscriberA);
-$publisher->attach($subscriberB);
+$observerA = new ObserverA();
+$observerB = new ObserverB();
 
-$publisher->setState('New state');
+$observable->eventManager->attach($observerA);
+$observable->eventManager->attach($observerB);
+
+$observable->setState('New state');

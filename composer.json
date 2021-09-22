@@ -21,6 +21,7 @@
             "Iterator\\": "src/Iterator",
             "Mediator\\": "src/Mediator",
             "Memento\\": "src/Memento",
+            "ObserverSpl\\": "src/ObserverSpl",
             "Observer\\": "src/Observer",
             "State\\": "src/State",
             "Strategy\\": "src/Strategy",

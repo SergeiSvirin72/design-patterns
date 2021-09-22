@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Observer;
+namespace ObserverSpl;
 
 
 use SplObjectStorage;
