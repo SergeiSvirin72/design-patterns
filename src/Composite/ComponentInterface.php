@@ -2,7 +2,9 @@
 
 namespace Composite;
 
-interface ComponentInterface
+use Visitor\ElementInterface;
+
+interface ComponentInterface extends ElementInterface
 {
     public function getSum(): int;
 

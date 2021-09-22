@@ -4,6 +4,8 @@
 namespace Composite;
 
 
+use Visitor\VisitorInterface;
+
 class Composite implements ComponentInterface
 {
     private array $composites = [];
@@ -25,7 +27,12 @@ class Composite implements ComponentInterface
         return true;
     }
 
-    public function getChildren(int $whitespace = 0): string
+    public function getChildren(): array
+    {
+        return $this->composites;
+    }
+
+    public function getStringView(int $whitespace = 0): string
     {
         $string = str_repeat(" ", $whitespace).self::class."(\n";
         foreach ($this->composites as $composite) {
@@ -49,5 +56,18 @@ class Composite implements ComponentInterface
         }
 
         return $sum;
+    }
+
+    /**
+     * For Visitor pattern
+     */
+    public function accept(VisitorInterface $visitor)
+    {
+        return $visitor->visitComposite($this);
+    }
+
+    public function featureComposite(): string
+    {
+        return 'Composite';
     }
 }
