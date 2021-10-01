@@ -4,8 +4,8 @@ namespace Strategy;
 
 class ConcreteStrategyB extends AbstractStrategy
 {
-    function execute(): string
+    function execute(int $a, int $b): int
     {
-        return 'StrategyB';
+        return $a - $b;
     }
 }

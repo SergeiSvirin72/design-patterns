@@ -11,6 +11,11 @@ class LeafA implements ComponentInterface
         return false;
     }
 
+    public function getStringView(int $whitespace = 0): string
+    {
+        return str_repeat(" ", $whitespace)."Leaf A\n";
+    }
+
     public function getSum(): int
     {
         return 5;

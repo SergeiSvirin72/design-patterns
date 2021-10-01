@@ -4,5 +4,5 @@ namespace Strategy;
 
 abstract class AbstractStrategy
 {
-    abstract function execute(): string;
+    abstract function execute(int $a, int $b): int;
 }

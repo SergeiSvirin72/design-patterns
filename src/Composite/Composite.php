@@ -34,16 +34,11 @@ class Composite implements ComponentInterface
 
     public function getStringView(int $whitespace = 0): string
     {
-        $string = str_repeat(" ", $whitespace).self::class."(\n";
+        $string = str_repeat(" ", $whitespace)."Composite (\n";
         foreach ($this->composites as $composite) {
-            if ($composite->isComposite()) {
-                $string .= $composite->getChildren($whitespace + 4);
-            } else {
-                $string .= str_repeat(" ", $whitespace + 4).$composite::class;
-            }
-            $string .= "\n";
+            $string .= $composite->getStringView($whitespace + 4);
         }
-        $string .= str_repeat(" ", $whitespace).")";
+        $string .= str_repeat(" ", $whitespace).")\n";
 
         return $string;
     }
@@ -64,6 +59,7 @@ class Composite implements ComponentInterface
     public function accept(VisitorInterface $visitor)
     {
         return $visitor->visitComposite($this);
+
     }
 
     public function featureComposite(): string

@@ -16,8 +16,8 @@ class Context
         $this->strategy = $strategy;
     }
 
-    public function execute(): string
+    public function execute(int $a, int $b): int
     {
-        return $this->strategy->execute();
+        return $this->strategy->execute($a, $b);
     }
 }
